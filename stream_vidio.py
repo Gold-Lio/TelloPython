@@ -2,7 +2,6 @@ import cv2
 from djitellopy import tello
 
 def process_tello_vidio(drone):
-
     while True:
         frame = drone.get_frame_read().frame
         cv2.imshow("Frame", frame)

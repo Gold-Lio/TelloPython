@@ -1,6 +1,5 @@
 import cv2
 from djitellopy import tello
-
 def get_orientation_data(drone):
     pitch = 'Pitch' + str(drone.get_pitch()) + '.'
     roll = 'Roll' + str(drone.get_roll()) + '.'
