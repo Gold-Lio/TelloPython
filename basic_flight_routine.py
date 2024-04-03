@@ -1,5 +1,4 @@
 from djitellopy import tello
-
 def basic_flight_routine(drone):
 
     drone.connect()
