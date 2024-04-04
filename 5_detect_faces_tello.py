@@ -3,7 +3,6 @@ Jacob Pitsenberger
 This module demonstrates using openCV with the TelloEDU mini drone to perform facial detection
 and keep a count of the number of faces detected at a given time.
 """
-
 import cv2
 from djitellopy import tello
 from FaceDetection.frontal_face_detector import FrontalFaceDetector
@@ -26,7 +25,6 @@ def main():
     drone.connect()
     drone.streamon()
     run_tello_video(drone, detector=haar_detector)
-
 
 if __name__ == "__main__":
     main()

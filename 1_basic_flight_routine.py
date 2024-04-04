@@ -3,6 +3,7 @@ def basic_flight_routine(drone):
 
     drone.connect()
     drone.takeoff()
+    drone.move_up(100)
     drone.land()
     drone.end()
 
